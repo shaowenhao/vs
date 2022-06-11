@@ -1,0 +1,11 @@
+// 代表 空 否sing的值会被转换为 false, 如 '',0,NaN,null,undefined
+
+
+//Boolean()函数 其他类型转化为布尔值
+Boolean('');
+Boolean(null);
+Boolean(NaN);
+Boolean(null);
+Boolean(undefined);
+
+
